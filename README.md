@@ -67,12 +67,12 @@
 
         .post-author {
             font-weight: 600;
-            font-size: 24px;
+            font-size: 35px;
             color: var(--primary-color);
         }
 
         .post-date {
-            font-size: 18px;
+            font-size: 24px;
             color: var(--text-secondary);
         }
 
