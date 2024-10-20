@@ -67,12 +67,12 @@
 
         .post-author {
             font-weight: 600;
-            font-size: 35px;
+            font-size: 24px;
             color: var(--primary-color);
         }
 
         .post-date {
-            font-size: 24px;
+            font-size: 14px;
             color: var(--text-secondary);
         }
 
@@ -80,7 +80,7 @@
             background-color: var(--secondary-color);
             color: white;
             border: none;
-            padding: 20px 40px;
+            padding: 8px 14px;
             border-radius: 20px;
             font-weight: 500;
             cursor: pointer;
@@ -98,7 +98,7 @@
 
         .nft-image {
             width: 100%;
-            height: 400px;
+            height: 700px;
             object-fit: cover;
         }
 
@@ -199,11 +199,11 @@
             }
 
             .post-author {
-                font-size: 14px;
+                font-size: 18px;
             }
 
             .post-date {
-                font-size: 12px;
+                font-size: 14px;
             }
 
             .follow-btn {
