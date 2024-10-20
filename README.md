@@ -208,7 +208,7 @@
             }
 
             .nft-image {
-                height: 300px;
+                height: 700px;
             }
 
             .post-content {
