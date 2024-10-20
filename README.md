@@ -107,14 +107,14 @@
         }
 
         .post-title {
-            font-size: 22px;
+            font-size: 26px;
             font-weight: 600;
             margin-bottom: 12px;
             color: var(--primary-color);
         }
 
         .post-text {
-            font-size: 16px;
+            font-size: 20px;
             color: var(--text-color);
             margin-bottom: 16px;
         }
@@ -220,11 +220,11 @@
             }
 
             .post-title {
-                font-size: 18px;
+                font-size: 24px;
             }
 
             .post-text {
-                font-size: 14px;
+                font-size: 18px;
             }
 
             .nft-info {
