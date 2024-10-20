@@ -98,7 +98,7 @@
 
         .nft-image {
             width: 100%;
-            height: 1000px;
+            height: 400px;
             object-fit: cover;
         }
 
@@ -120,18 +120,19 @@
         }
 
         .nft-info {
+            display: flex;
+            justify-content: space-between;
             background-color: #f0f0f0;
             border-radius: 8px;
             padding: 12px;
             margin-bottom: 16px;
         }
 
-        .nft-info p {
-            margin-bottom: 8px;
+        .nft-info-item {
             font-size: 14px;
         }
 
-        .nft-info strong {
+        .nft-info-item strong {
             color: var(--primary-color);
         }
 
@@ -208,7 +209,7 @@
             }
 
             .nft-image {
-                height: 700px;
+                height: 300px;
             }
 
             .post-content {
@@ -221,6 +222,14 @@
 
             .post-text {
                 font-size: 14px;
+            }
+
+            .nft-info {
+                flex-direction: column;
+            }
+
+            .nft-info-item {
+                margin-bottom: 8px;
             }
 
             .post-actions {
@@ -247,7 +256,7 @@
                 author: "CryptoArtist",
                 avatar: "https://i.pravatar.cc/150?img=1",
                 date: "2h ago",
-                image: "https://i.imghippo.com/files/PXimz1729396853.jpg",
+                image: "https://i.postimg.cc/c19T41qj/Greek-and-Black-Vivid-Bold-Blocks-Electronics-and-Appliances-Banner.png",
                 title: "Ethereal Dreams #42",
                 content: "Explore the boundaries of reality with my latest NFT creation. This piece represents the fusion of technology and spirituality in our digital age.",
                 likes: 1200,
@@ -263,7 +272,7 @@
                 author: "PixelMaster",
                 avatar: "https://i.pravatar.cc/150?img=2",
                 date: "1d ago",
-                image: "https://i.imghippo.com/files/cww5y1729396932.jpg",
+                image: "https://i.postimg.cc/C5L74DfM/AD.png",
                 title: "Crypto Punk Remix #007",
                 content: "A fresh take on the iconic Crypto Punks. This NFT combines classic pixel art with modern crypto culture references.",
                 likes: 3500,
@@ -279,7 +288,7 @@
                 author: "FutureScape",
                 avatar: "https://i.pravatar.cc/150?img=3",
                 date: "3d ago",
-                image: "https://i.imghippo.com/files/w7qVp1729396971.jpg",
+                image: "https://i.postimg.cc/6q3gYT7K/Black-and-White-Typographic-and-Modern-Phone-Brand-Facebook-Ad.png",
                 title: "Neo Tokyo Skyline",
                 content: "Immerse yourself in the vibrant future of Neo Tokyo with this animated NFT. Each frame tells a story of innovation and culture.",
                 likes: 2800,
@@ -315,9 +324,9 @@
                     <h2 class="post-title">${post.title}</h2>
                     <p class="post-text">${post.content}</p>
                     <div class="nft-info">
-                        <p><strong>Price:</strong> ${post.price} ${post.currency}</p>
-                        <p><strong>Collection:</strong> ${post.collection}</p>
-                        <p><strong>Blockchain:</strong> ${post.blockchain}</p>
+                        <span class="nft-info-item"><strong>Price:</strong> ${post.price} ${post.currency}</span>
+                        <span class="nft-info-item"><strong>Collection:</strong> ${post.collection}</span>
+                        <span class="nft-info-item"><strong>Blockchain:</strong> ${post.blockchain}</span>
                     </div>
                     <button class="bid-btn">Place Bid</button>
                 </div>
