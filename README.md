@@ -98,7 +98,7 @@
 
         .nft-image {
             width: 100%;
-            height: 400px;
+            height: 1000px;
             object-fit: cover;
         }
 
