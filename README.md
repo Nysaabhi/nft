@@ -80,7 +80,7 @@
             background-color: var(--secondary-color);
             color: white;
             border: none;
-            padding: 12px 20px;
+            padding: 20px 40px;
             border-radius: 20px;
             font-weight: 500;
             cursor: pointer;
