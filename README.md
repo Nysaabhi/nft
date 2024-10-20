@@ -1,5 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -262,7 +260,7 @@
                 author: "CryptoArtist",
                 avatar: "https://i.pravatar.cc/150?img=1",
                 date: "2h ago",
-                image: "https://i.postimg.cc/c19T41qj/Greek-and-Black-Vivid-Bold-Blocks-Electronics-and-Appliances-Banner.png",
+                image: "https://i.ibb.co/dkRj6z0/Whats-App-Image-2024-10-20-at-09-16-08-0798f91f.jpg",
                 title: "Ethereal Dreams #42",
                 content: "Explore the boundaries of reality with my latest NFT creation. This piece represents the fusion of technology and spirituality in our digital age.",
                 likes: 1200,
@@ -278,7 +276,7 @@
                 author: "PixelMaster",
                 avatar: "https://i.pravatar.cc/150?img=2",
                 date: "1d ago",
-                image: "https://i.postimg.cc/C5L74DfM/AD.png",
+                image: "https://i.ibb.co/kMyZsYy/Whats-App-Image-2024-10-20-at-09-16-07-1901e522.jpg",
                 title: "Crypto Punk Remix #007",
                 content: "A fresh take on the iconic Crypto Punks. This NFT combines classic pixel art with modern crypto culture references.",
                 likes: 3500,
@@ -294,7 +292,7 @@
                 author: "FutureScape",
                 avatar: "https://i.pravatar.cc/150?img=3",
                 date: "3d ago",
-                image: "https://i.postimg.cc/6q3gYT7K/Black-and-White-Typographic-and-Modern-Phone-Brand-Facebook-Ad.png",
+                image: "https://i.ibb.co/Pxp031L/Whats-App-Image-2024-10-20-at-09-16-07-510389dd.jpg",
                 title: "Neo Tokyo Skyline",
                 content: "Immerse yourself in the vibrant future of Neo Tokyo with this animated NFT. Each frame tells a story of innovation and culture.",
                 likes: 2800,
@@ -392,4 +390,3 @@
     </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"></script>
 </body>
-</html>
