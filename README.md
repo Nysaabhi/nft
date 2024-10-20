@@ -107,14 +107,14 @@
         }
 
         .post-title {
-            font-size: 26px;
+            font-size: 30px;
             font-weight: 600;
             margin-bottom: 12px;
             color: var(--primary-color);
         }
 
         .post-text {
-            font-size: 20px;
+            font-size: 24px;
             color: var(--text-color);
             margin-bottom: 16px;
         }
@@ -125,14 +125,14 @@
             background-color: #f0f0f0;
             border-radius: 8px;
             padding: 12px;
-            margin-bottom: 16px;
+            margin-bottom: 7px;
             flex-wrap: wrap;
         }
 
         .nft-info-item {
             font-size: 14px;
             white-space: nowrap;
-            margin: 4px 8px;
+            margin: 4px 4px;
         }
 
         .nft-info-item strong {
@@ -220,11 +220,11 @@
             }
 
             .post-title {
-                font-size: 24px;
+                font-size: 30px;
             }
 
             .post-text {
-                font-size: 18px;
+                font-size: 24px;
             }
 
             .nft-info {
