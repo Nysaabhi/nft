@@ -1,3 +1,5 @@
+<!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -126,10 +128,13 @@
             border-radius: 8px;
             padding: 12px;
             margin-bottom: 16px;
+            flex-wrap: wrap;
         }
 
         .nft-info-item {
             font-size: 14px;
+            white-space: nowrap;
+            margin: 4px 8px;
         }
 
         .nft-info-item strong {
@@ -225,11 +230,12 @@
             }
 
             .nft-info {
-                flex-direction: column;
+                padding: 8px;
             }
 
             .nft-info-item {
-                margin-bottom: 8px;
+                font-size: 12px;
+                margin: 2px 4px;
             }
 
             .post-actions {
@@ -386,3 +392,4 @@
     </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"></script>
 </body>
+</html>
