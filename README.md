@@ -125,7 +125,7 @@
             background-color: #f0f0f0;
             border-radius: 8px;
             padding: 12px;
-            margin-bottom: 7px;
+            margin-bottom: 16px;
             flex-wrap: wrap;
         }
 
