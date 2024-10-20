@@ -54,8 +54,8 @@
         }
 
         .post-avatar {
-            width: 48px;
-            height: 48px;
+            width: 60px;
+            height: 60px;
             border-radius: 50%;
             object-fit: cover;
         }
@@ -67,12 +67,12 @@
 
         .post-author {
             font-weight: 600;
-            font-size: 16px;
+            font-size: 24px;
             color: var(--primary-color);
         }
 
         .post-date {
-            font-size: 14px;
+            font-size: 18px;
             color: var(--text-secondary);
         }
 
@@ -80,7 +80,7 @@
             background-color: var(--secondary-color);
             color: white;
             border: none;
-            padding: 8px 16px;
+            padding: 12px 20px;
             border-radius: 20px;
             font-weight: 500;
             cursor: pointer;
